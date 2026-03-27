@@ -9,6 +9,7 @@ return {
 				"gomod",
 				"gowork",
 				"gosum",
+				"html",
 			},
 		},
 	},
@@ -29,6 +30,8 @@ return {
 					"gomod",
 					"gowork",
 					"gosum",
+					"html",
+					"tmpl",
 				},
 				settings = {
 					gopls = {
@@ -57,6 +60,8 @@ return {
 					"goimports",
 					"gofumpt",
 				},
+				html = { "djlint" },
+				tmpl = { "djlint" },
 			},
 		},
 	},
